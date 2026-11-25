@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="132" viewBox="0 0 1200 132" role="img" aria-labelledby="t d">
+<title id="t">Open source, reverse engineering &amp; research.</title>
+<desc id="d">Open source, reverse engineering &amp; research.</desc>
+<style>
+.s{font-family:'Bricolage Grotesque','Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+.m{font-family:'Geist Mono',ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace}
+.lit{opacity:0;animation:pulse 6s ease-in-out infinite}
+.cur{animation:blink 1.05s step-end infinite}
+.comet{animation:comet 5s linear infinite}
+.breathe{animation:breathe 5s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:0}50%{opacity:1}}
+@keyframes wave{0%{opacity:0}4%{opacity:1}12%,100%{opacity:0}}
+@keyframes blink{0%,50%{opacity:1}50.01%,100%{opacity:0}}
+@keyframes comet{from{stroke-dashoffset:0}to{stroke-dashoffset:-100}}
+@keyframes breathe{0%,100%{opacity:.45}50%{opacity:1}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes spinr{to{transform:rotate(-360deg)}}
+@keyframes d1{0%,100%{transform:translate(0,0)}50%{transform:translate(70px,26px)}}
+@keyframes d2{0%,100%{transform:translate(0,0)}50%{transform:translate(-80px,18px)}}
+@keyframes d3{0%,100%{transform:translate(0,0)}50%{transform:translate(36px,-34px)}}
+@keyframes scan{from{transform:translateX(-260px)}to{transform:translateX(1460px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs><linearGradient id="work-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#17151d"/><stop offset="1" stop-color="#0c0b10"/></linearGradient><clipPath id="work-clip"><rect x="0" y="0" width="1200" height="132" rx="24"/></clipPath><pattern id="work-hex" width="34.641" height="60.000" patternUnits="userSpaceOnUse"><g fill="none" stroke="#fff4d6" stroke-opacity="0.1" stroke-width="1.2"><polygon points="0.00,-18.40 15.93,-9.20 15.93,9.20 0.00,18.40 -15.93,9.20 -15.93,-9.20"/><polygon points="34.64,-18.40 50.58,-9.20 50.58,9.20 34.64,18.40 18.71,9.20 18.71,-9.20"/><polygon points="17.32,11.60 33.26,20.80 33.26,39.20 17.32,48.40 1.39,39.20 1.39,20.80"/><polygon points="0.00,41.60 15.93,50.80 15.93,69.20 0.00,78.40 -15.93,69.20 -15.93,50.80"/><polygon points="34.64,41.60 50.58,50.80 50.58,69.20 34.64,78.40 18.71,69.20 18.71,50.80"/></g></pattern><radialGradient id="work-fade" cx="1150" cy="66" r="380" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient><mask id="work-mask"><rect width="1200" height="132" fill="url(#work-fade)"/></mask><linearGradient id="work-ln" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffb020" stop-opacity="0"/><stop offset=".5" stop-color="#ffb020"/><stop offset="1" stop-color="#ffb020" stop-opacity="0"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="132" rx="24" fill="url(#work-bg)"/><g clip-path="url(#work-clip)"><rect width="1200" height="132" fill="url(#work-hex)" mask="url(#work-mask)"/><rect x="0" y="130" width="260" height="2" fill="url(#work-ln)" style="animation:scan 6s linear infinite"/></g><text class="m" x="48" y="50" font-size="14" fill="#ffb020" letter-spacing="3" textLength="148.2" lengthAdjust="spacingAndGlyphs">SELECTED WORK</text><text class="s" x="46" y="98" font-size="38" font-weight="800" letter-spacing="-1" fill="#fff4d6">Open source, reverse engineering <tspan fill="#ffb020">&amp; research.</tspan></text><rect x="0.75" y="0.75" width="1198.5" height="130.5" rx="23.25" fill="none" stroke="#fff4d6" stroke-opacity="0.1" stroke-width="1.5"/>
+</svg>
